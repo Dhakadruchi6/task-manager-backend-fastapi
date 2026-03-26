@@ -1,10 +1,8 @@
-Task Manager Backend API (FastAPI)
+🚀 Task Manager Backend API (FastAPI)
 
-A secure and scalable Task Management Backend API built using FastAPI.
-This project implements JWT-based authentication and full CRUD operations for managing tasks.
-It demonstrates backend development skills including RESTful API design, authentication, database integration, and structured architecture.
+A secure and scalable Task Management Backend API built using FastAPI, featuring JWT authentication, user management, and full CRUD operations for tasks. This project demonstrates backend architecture, authentication, and RESTful API development.
 
-Features
+✨ Features
 User Registration and Login
 JWT Authentication
 Create Tasks
@@ -23,21 +21,20 @@ SQLite
 JWT (python-jose)
 Pydantic
 Uvicorn
-API Endpoints
+
+📡 API Endpoints
 Authentication
 
 POST /register — Register a new user
 POST /login — Login and receive access token
 
-Tasks
-
+🛠️ Tech Stack
 POST /tasks — Create a task
 GET /tasks — Get all tasks
 PUT /tasks/{task_id} — Update a task
 DELETE /tasks/{task_id} — Delete a task
 
-How to Run Locally
-
+▶️ Run Locally
 Clone the repository
 
 git clone https://github.com/Dhakadruchi6/task-manager-backend-fastapi.git
@@ -54,7 +51,8 @@ uvicorn app.main:app --reload
 Open in browser
 
 http://127.0.0.1:8000/docs
-Project Structure
+
+📂 Project Structure
 task-manager-backend-fastapi
 │
 ├── app
@@ -67,7 +65,8 @@ task-manager-backend-fastapi
 │
 ├── requirements.txt
 └── README.md
-Key Highlights
+
+🎯 Key Highlights
 Clean backend architecture
 JWT-based authentication
 RESTful API implementation
@@ -75,8 +74,8 @@ Database integration using SQLAlchemy
 Protected endpoints
 Production-ready project structure
 Swagger API documentation
-Author
 
+👩‍💻 Author
 Ruchi Dhakad
 Full Stack Developer | Backend Enthusiast
 GitHub: https://github.com/Dhakadruchi6
