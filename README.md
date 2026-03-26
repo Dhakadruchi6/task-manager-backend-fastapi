@@ -1,45 +1,60 @@
-🚀 Task Manager Backend API (FastAPI)
+Task Manager Backend API (FastAPI)
 
-A secure and scalable Task Management Backend API built using FastAPI, featuring JWT authentication, user management, and full CRUD operations for tasks. This project demonstrates backend architecture, authentication, and RESTful API development.
+A secure and scalable Task Management Backend API built using FastAPI.
+This project implements JWT-based authentication and full CRUD operations for managing tasks.
+It demonstrates backend development skills including RESTful API design, authentication, database integration, and structured architecture.
 
-✨ Features
-🔐 User Registration & Login
-🔑 JWT Authentication
-📝 Create Tasks
-📋 Get User Tasks
-✏️ Update Tasks
-❌ Delete Tasks
-🛡️ Protected Routes
-🗄️ SQLite Database Integration
-⚡ FastAPI Swagger Documentation
-🔄 RESTful API Design
-🛠️ Tech Stack
+Features
+User Registration and Login
+JWT Authentication
+Create Tasks
+Get User Tasks
+Update Tasks
+Delete Tasks
+Protected Routes
+SQLite Database Integration
+RESTful API Design
+Interactive Swagger Documentation
+Tech Stack
 Python
 FastAPI
 SQLAlchemy
 SQLite
-JWT Authentication
+JWT (python-jose)
 Pydantic
 Uvicorn
-📡 API Endpoints
+API Endpoints
 Authentication
-POST /register → Register new user
-POST /login → Login and get access token
+
+POST /register — Register a new user
+POST /login — Login and receive access token
+
 Tasks
-POST /tasks → Create task
-GET /tasks → Get all tasks
-PUT /tasks/{task_id} → Update task
-DELETE /tasks/{task_id} → Delete task
-▶️ Run Locally
+
+POST /tasks — Create a task
+GET /tasks — Get all tasks
+PUT /tasks/{task_id} — Update a task
+DELETE /tasks/{task_id} — Delete a task
+
+How to Run Locally
+
+Clone the repository
+
 git clone https://github.com/Dhakadruchi6/task-manager-backend-fastapi.git
 cd task-manager-backend-fastapi
+
+Install dependencies
+
 pip install -r requirements.txt
+
+Run the server
+
 uvicorn app.main:app --reload
 
-Open in browser:
+Open in browser
 
 http://127.0.0.1:8000/docs
-📂 Project Structure
+Project Structure
 task-manager-backend-fastapi
 │
 ├── app
@@ -52,14 +67,15 @@ task-manager-backend-fastapi
 │
 ├── requirements.txt
 └── README.md
-🎯 Key Highlights
+Key Highlights
 Clean backend architecture
 JWT-based authentication
+RESTful API implementation
 Database integration using SQLAlchemy
-RESTful API design
-Production-ready structure
+Protected endpoints
+Production-ready project structure
 Swagger API documentation
-👩‍💻 Author
+Author
 
 Ruchi Dhakad
 Full Stack Developer | Backend Enthusiast
