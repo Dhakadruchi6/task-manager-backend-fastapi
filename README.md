@@ -3,12 +3,10 @@
 A secure and scalable Task Management Backend API built using FastAPI, featuring JWT authentication, user management, and full CRUD operations for tasks. This project demonstrates backend architecture, authentication, and RESTful API development.
 
 # Task Manager Backend API (FastAPI)
-
 Live API: https://task-manager-backend-fastapi-od1g1eke1-ruchi1.vercel.app  
 API Docs: https://task-manager-backend-fastapi-od1g1eke1-ruchi1.vercel.app/docs
 
 A secure and scalable Task Management Backend API built using FastAPI.
-
 
 ✨ Features
 User Registration and Login
